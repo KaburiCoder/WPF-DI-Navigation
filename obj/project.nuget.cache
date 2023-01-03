@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+W4dVAzeeDgGRjoWjU30VoQkwVyEc/9g1FlLiP1XL6FtCMiVhYoRBFNOzIM1CAzo5wR+EoM+qlJP9+lpyxeUaA==",
+  "success": true,
+  "projectFilePath": "C:\\YoutubeLecture\\WpfDINaviagation\\WpfDINaviagation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RENEWCOM PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\RENEWCOM PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

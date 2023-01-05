@@ -25,6 +25,9 @@ namespace WpfDINaviagation
 
       // Stores
       services.AddSingleton<MainNavigationStore>();
+      services.AddSingleton<SignupStore>();
+      services.AddSingleton<LeftStore>();
+      services.AddSingleton<RightStore>();
 
       // Services
       services.AddSingleton<INavigationService, NavigationService>();
@@ -36,6 +39,7 @@ namespace WpfDINaviagation
       services.AddSingleton<TestViewModel>();
       services.AddTransient<LeftViewModel>();
       services.AddTransient<RightViewModel>();
+
       // Views
       services.AddSingleton(s => new MainView()
       {

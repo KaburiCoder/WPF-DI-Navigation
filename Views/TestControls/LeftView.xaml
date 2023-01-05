@@ -36,7 +36,7 @@
           </Grid.ColumnDefinitions>
 
           <TextBlock Grid.Column="0" Text="아이디"/>
-          <TextBox Grid.Column="1" Text=""/>
+          <TextBox Grid.Column="1" Text="{Binding Id}"/>
         </Grid>
         <Grid Height="50" Margin="0 5 0 0">
           <Grid.ColumnDefinitions>
@@ -45,7 +45,7 @@
           </Grid.ColumnDefinitions>
 
           <TextBlock Grid.Column="0" Text="이름"/>
-          <TextBox Grid.Column="1" Text=""/>
+          <TextBox Grid.Column="1" Text="{Binding Name}"/>
         </Grid>
         <Grid Height="50" Margin="0 5 0 0">
           <Grid.ColumnDefinitions>
@@ -54,7 +54,7 @@
           </Grid.ColumnDefinitions>
 
           <TextBlock Grid.Column="0" Text="이메일"/>
-          <TextBox Grid.Column="1" Text=""/>
+          <TextBox Grid.Column="1" Text="{Binding Email}"/>
         </Grid>
 
         <Grid Height="50" Margin="0 5 0 0">
@@ -65,11 +65,13 @@
           </Grid.ColumnDefinitions>
 
           <TextBlock Grid.Column="0" Text="비밀번호"/>
-          <TextBox Grid.Column="1" Text=""/>          
+          <TextBox Grid.Column="1" Text="{Binding Password}"/>          
         </Grid>
       </StackPanel>      
     </Border>
 
-    <Button Grid.Row="2" Content="데이터 전송"/>
+    <Button Grid.Row="2" 
+            Content="데이터 전송"
+            Command="{Binding SendAccountToRightCommand}"/>
   </Grid>
 </UserControl>

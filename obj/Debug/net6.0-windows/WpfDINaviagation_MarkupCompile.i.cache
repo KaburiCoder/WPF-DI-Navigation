@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\YoutubeLecture\WpfDINaviagation\App.xaml
-41506574291
+6320449362
 
-18-2048948022
+22-220567614
 1962134091039
-Views\LoginView.xaml;Views\MainView.xaml;Views\SignupView.xaml;Views\TestView.xaml;
+Views\MainControls\LoginView.xaml;Views\MainControls\SignupView.xaml;Views\MainControls\TestView.xaml;Views\MainView.xaml;Views\TestControls\LeftView.xaml;Views\TestControls\RightView.xaml;
 
 False
 

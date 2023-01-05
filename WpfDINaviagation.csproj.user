@@ -7,30 +7,42 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\LoginView.xaml.cs">
+    <Compile Update="Views\TestControls\LeftView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainControls\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\SignupView.xaml.cs">
+    <Compile Update="Views\TestControls\RightView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\TestView.xaml.cs">
+    <Compile Update="Views\MainControls\SignupView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainControls\TestView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\LoginView.xaml">
+    <Page Update="Views\TestControls\LeftView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainControls\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\SignupView.xaml">
+    <Page Update="Views\TestControls\RightView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\TestView.xaml">
+    <Page Update="Views\MainControls\SignupView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainControls\TestView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -27,10 +27,14 @@ namespace WpfDINaviagation.ViewModels
     {
       _navigationService = navigationService;
 
+      LeftViewModel = (ViewModelBase)App.Current.Services.GetService(typeof(LeftViewModel))!;
+      RightViewModel = (ViewModelBase)App.Current.Services.GetService(typeof(RightViewModel))!;
       ToLoginCommand = new RelayCommand<object>(ToLogin);
       ToSignupCommand = new RelayCommand<object>(ToSignup);
     }
 
+    public ViewModelBase LeftViewModel { get; set; }
+    public ViewModelBase RightViewModel { get; set; }
     public ICommand ToLoginCommand { get; set; }
     public ICommand ToSignupCommand { get; set; }
   }

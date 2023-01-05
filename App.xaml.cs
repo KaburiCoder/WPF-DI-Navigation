@@ -34,7 +34,8 @@ namespace WpfDINaviagation
       services.AddSingleton<LoginViewModel>();
       services.AddSingleton<SignupViewModel>();
       services.AddSingleton<TestViewModel>();
-
+      services.AddTransient<LeftViewModel>();
+      services.AddTransient<RightViewModel>();
       // Views
       services.AddSingleton(s => new MainView()
       {

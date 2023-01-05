@@ -1,7 +1,9 @@
 ﻿
 
-FC:\YoutubeLecture\WpfDINaviagation\Views\LoginView.xaml;;
 FC:\YoutubeLecture\WpfDINaviagation\Views\MainView.xaml;;
-FC:\YoutubeLecture\WpfDINaviagation\Views\SignupView.xaml;;
-FC:\YoutubeLecture\WpfDINaviagation\Views\TestView.xaml;;
+FC:\YoutubeLecture\WpfDINaviagation\Views\MainControls\LoginView.xaml;;
+FC:\YoutubeLecture\WpfDINaviagation\Views\MainControls\SignupView.xaml;;
+FC:\YoutubeLecture\WpfDINaviagation\Views\MainControls\TestView.xaml;;
+FC:\YoutubeLecture\WpfDINaviagation\Views\TestControls\LeftView.xaml;;
+FC:\YoutubeLecture\WpfDINaviagation\Views\TestControls\RightView.xaml;;
 
